@@ -12,3 +12,39 @@ header {
     background-color: #F29F05;
     padding: 10px 0px 10px 0px;
 }
+
+.flexgrow-container {
+    display: flex;
+}
+
+.box1 {
+    background-color: skyblue;
+    
+    height: 200px;
+    flex: 1 1 auto;
+
+}
+
+.box2 {
+
+    background-color: lightgreen;
+    
+    height: 200px;
+    flex: 2 -1 auto;
+}
+
+.box3 {
+
+    background-color: darkmagenta;
+    
+    height: 200px;
+    flex: 1 1 auto;
+
+}
+
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
