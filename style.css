@@ -44,12 +44,13 @@ button {
 }
 
 button:hover {
-    background-color: limegreen;
-    color: white;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px darkred;
+    background-color: black;
+    color: red;
+    box-shadow: 0 5px red;
     transform: translateY(4px);
 }
