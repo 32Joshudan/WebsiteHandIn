@@ -19,7 +19,7 @@ header {
 }
 
 p {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     color: rgb(255, 255, 255);
     font-weight: 900;
     text-align: center;
@@ -37,7 +37,7 @@ p {
 
 button {
     border: 1px solid rgb(255, 255, 255);
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: large;
     font-weight: 900;
     padding: 10px;
