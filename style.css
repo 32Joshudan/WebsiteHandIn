@@ -14,10 +14,6 @@ header {
     padding: 10px 0px 10px 0px;
 }
 
-.flexgrow-container {
-    display: flex;
-
-}
 
 .description-p {
     font-family: 'Courier New', Courier, monospace;
@@ -34,7 +30,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 button {
@@ -60,25 +57,10 @@ button:active {
 }
 
 .flexgrow-container {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    align-items: center;
-}
+    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: row;
 
-.carp-images {
-    display:flex;
-    align-items: center;
-    flex-wrap:wrap;
-    justify-content: center;
-}
-
-.carp-images-img {
-    width: auto;
-    height:500px;
-    padding: 40px 36px;
-    background-color: rgb(200, 0, 0);
-    display:flex;
-    align-items: center;
-    flex-wrap:wrap;
-    justify-content: center;
 }
