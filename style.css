@@ -28,6 +28,7 @@ p {
     padding: 20px 100px;
 }
 
+
 .container-navigation {
     display: flex;
     flex-wrap: wrap;
@@ -41,8 +42,8 @@ button {
     font-size: large;
     font-weight: 900;
     padding: 10px;
-    margin: 2px;
     transition-duration: .4s;
+    flex-wrap: wrap;
 }
 
 button:hover {
@@ -55,4 +56,22 @@ button:active {
     color: rgb(200, 0, 0);
     box-shadow: 0 5px rgb(200, 0, 0);
     transform: translateY(4px);
+}
+
+.flexgrow-container {
+    display:flex;
+}
+
+.carp-images {
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.carp-images-img {
+    width: auto;
+    height:500px;
+    padding: 50px 50px;
+    background-color: rgb(200, 0, 0);
 }
