@@ -1,0 +1,23 @@
+.carp-images-img {
+    width: auto;
+    height:500px;
+    padding: 40px 36px;
+    background-color: rgb(200, 0, 0);
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.carp-images-paragraph {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 15px;
+    padding-bottom: 25px;
+    background-color: rgb(200, 0, 0);
+    width: 425.5px;
+    word-wrap: break-word;
+    text-align: center;
+    justify-content: space-evenly;
+}
