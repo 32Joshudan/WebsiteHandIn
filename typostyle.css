@@ -1,0 +1,35 @@
+.typo-img {
+    width: 350px;
+    height:auto;
+    padding: 40px 36px;
+    background-color: rgb(200, 0, 0);
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.typo-paragraph {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    background-color: rgb(200, 0, 0);
+    font-weight: 900;
+    font-size: 15px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 322.5px;
+    word-wrap: break-word;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    background-color: rgb(200, 0, 0);
+    font-weight: 900;
+    text-align: center;
+    font-size: 30px;
+
+}
