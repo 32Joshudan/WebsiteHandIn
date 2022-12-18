@@ -54,9 +54,9 @@ a {
     color: white;
 }
 
-/* Sushi Page*/
+/* cake Page*/
 
-.sushi-text{
+.cake-text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     color: white;
@@ -64,7 +64,7 @@ a {
     font-weight: bold;
 }
 
-.sushi-item{
+.cake-item{
 
     border: 1px dashed yellow;
     width: 275px;
@@ -72,7 +72,7 @@ a {
     padding: 4px;
 }
 
-.sushi-group {
+.cake-group {
     border: 2px solid green;
     width: 275px;
 }
@@ -81,6 +81,18 @@ a {
 .section-one {
     border: 1px solid white;
     background-color: darkslateblue;
+}
+
+.caption {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: center;
 }
 
 .caption {
